@@ -1,0 +1,7 @@
+type Query {
+    myEntities: [MyEntity]
+}
+
+type MyEntity {
+    name: String
+}
